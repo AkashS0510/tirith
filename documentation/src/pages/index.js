@@ -7,27 +7,21 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-      </div>
-  );
-}
 
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+import React from 'react';
+import { Redirect } from '@docusaurus/router';
+
+function Home() {
   return (
     <Layout
-      title= "Docs "
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      title={`Docs`}
+      description="Docs for StackGuardian Platform">
       <main>
-        <HomepageFeatures />
+        <Redirect to="/tirith/docs/getting-started-with-tirith/" />
       </main>
     </Layout>
   );
 }
+
+export default Home;
+

@@ -1,4 +1,4 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -8,11 +8,11 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/tirith/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'StackGuardian', // Usually your GitHub org/user name.
+  organizationName: 'AkashS0510', // Usually your GitHub org/user name.
   projectName: 'tirith', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,12 +44,12 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Tirith',
-        hideOnScroll: true,    
+        hideOnScroll: true,
         logo: {
           alt: 'Tirith Logo',
           src: 'img/tirith.png',
           href: 'https://tirith-policy-builder.vercel.app/',
-          target:'_blank',
+          target: '_blank',
         },
         items: [
           {
