@@ -48,7 +48,7 @@ const config = {
         logo: {
           alt: 'Tirith Logo',
           src: 'img/tirith.png',
-          href: 'https://tirith-policy-builder.vercel.app/',
+          href: 'https://akashs0510.github.io/tirith/',
           target: '_blank',
         },
         items: [
