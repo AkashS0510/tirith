@@ -36,6 +36,13 @@ import TabItem from '@theme/TabItem';
     }]
   })
 }}></script>
+
+:::info
+
+ This Documentation is under development. Stay tuned!!
+
+:::
+
 Tirith is a robust policy framework designed to automate and enforce security, governance, and compliance across infrastructure-as-code (IaC) platforms like Terraform, CloudFormation, and Kubernetes. It simplifies policy creation and management, ensuring infrastructure adheres to industry regulations and best practices.
 
 ## Key Benefits of Tirith
